@@ -1,6 +1,8 @@
 package app;
+import dao.KhachHangDAO;
 import dao.PhongDAO;
 import db.Connection;
+import entities.KhachHang;
 import entities.Phong;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityTransaction;
@@ -23,7 +25,7 @@ public class Main {
 		}
 
 		PhongDAO phongDAO = new PhongDAO();
-
+		KhachHangDAO khachHangDAO = new KhachHangDAO();
 		// Tìm một phòng dựa trên mã phòng
 //		int maPhongCanTim = 1;
 //		Phong phongTimDuoc = phongDAO.findOne(maPhongCanTim);
@@ -34,10 +36,10 @@ public class Main {
 //		}
 
 		// Lấy danh sách tất cả các phòng
-		List<Phong> danhSachPhong = phongDAO.findAll();
+		List<KhachHang> danhSachPhong = khachHangDAO.getListKH();
 		if (!danhSachPhong.isEmpty()) {
 			System.out.println("Danh sách các phòng:");
-			for (Phong p : danhSachPhong) {
+			for (KhachHang p : danhSachPhong) {
 				System.out.println(p);
 			}
 		} else {

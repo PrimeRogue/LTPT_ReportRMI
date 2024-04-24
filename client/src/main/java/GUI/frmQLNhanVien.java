@@ -13,6 +13,7 @@ import java.rmi.RemoteException;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.time.LocalDateTime;
+import java.time.ZoneId;
 import java.util.Date;
 import java.util.List;
 import java.util.logging.Level;
@@ -145,8 +146,7 @@ public class frmQLNhanVien extends JPanel implements ActionListener {
             else
                 gt = "nữ";
             LocalDateTime ngaySinh = p.getNgaySinh();
-            SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
-            String ngaySinhStr = sdf.format(ngaySinh);
+            String ngaySinhStr = (ngaySinh != null) ? new SimpleDateFormat("yyyy-MM-dd").format(Date.from(ngaySinh.atZone(ZoneId.systemDefault()).toInstant())) : "NgaySinh is null!";
 
             String[] row = {Integer.toString(p.getMaNV()), p.getTenNV(), ngaySinhStr, p.getChucVu(), gt, p.getDiaChi(), p.getSDT(), p.getCCCD(), Float.toString((float) p.getLuong())};
             tblModel.addRow(row);
