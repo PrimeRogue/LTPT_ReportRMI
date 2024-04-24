@@ -1,0 +1,13 @@
+
+¨
+java:S11925"lDefine a constant instead of duplicating this literal ".*[!@#$%^&*()_+|~=`{}\\[\\]:\";'<>?,.\\/].*" 3 times.(Çú¾åJ$57b51a51-aed8-457a-a729-4d9695552b20
+É
+java:S1598"ŒThis file "KhachHangImpl.java" should be located in "bus\impl" directory, not in "D:\PhanTan_Java\Karaoke\server\src\main\java\method\impl".(Á„î·J$3d89c231-49cf-4101-8bd9-698f0fd52df0
+l
+java:S2160"+Override the "equals" method in this class.(ñôºíÿÿÿÿÿJ$52ac54c3-6fbf-49ba-b2b1-e48b3b121c73
+i
+java:S1125"(Remove the unnecessary boolean literals.(”™úÕùÿÿÿÿJ$3b4a48e9-6442-48ee-aa14-b074e01b2655
+i
+java:S1125"(Remove the unnecessary boolean literals.(ŒÏñ§øÿÿÿÿJ$74f2a714-a8c4-441f-aa30-c9ca318c204a
+}
+java:S63537"<Use concise character class syntax '\\d' instead of '[0-9]'.(Ý‰ÜºøÿÿÿÿJ$12539824-0925-4c4b-8aac-784d50da4a3d

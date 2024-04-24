@@ -1,0 +1,9 @@
+
+È
+java:S1598"‹This file "NhanVienImpl.java" should be located in "bus\impl" directory, not in "D:\PhanTan_Java\Karaoke\server\src\main\java\method\impl".(Á„î·J$bc28e430-c9aa-42e3-a10c-0723d8273652
+l
+java:S2160"+Override the "equals" method in this class.(ÏÜÄ¶üÿÿÿÿJ$4677b4e9-fb95-45fe-94af-dfe6b076c552
+i
+java:S1125"(Remove the unnecessary boolean literals.(ÏµÛ“ùÿÿÿÿJ$142c7b39-0351-45e6-9e4f-c80be4db7b34
+}
+java:S6353("<Use concise character class syntax '\\d' instead of '[0-9]'.(Ý‰ÜºøÿÿÿÿJ$e5e8c31c-df5a-4f9c-89de-213d3246b0ad

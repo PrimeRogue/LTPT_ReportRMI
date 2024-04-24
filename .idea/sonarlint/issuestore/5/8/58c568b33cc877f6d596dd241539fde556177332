@@ -1,0 +1,12 @@
+
+	java:S117J"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(όϋ©J$8582ba9e-6062-4873-b4d4-f512d11ba214
+‘	java:S117W"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ΠΡ€ύÿÿÿÿJ$a0f8e8c2-1c1e-45fe-a0ca-45384fe37b86
+	java:S117c"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Μ§λJ$7b15d311-19ad-4ab8-b51e-eec1d644bbd7
+	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ΰΐχάJ$6eb3fb45-de37-41bd-84fd-086b958c30ac
+Δ
+java:S1598"‚This file "NhanVien.java" should be located in "Entity" directory, not in "D:\PhanTan_Java\Karaoke\server\src\main\java\entities".(ª―ΥΉψÿÿÿÿJ$7e39c740-eafd-471e-be9c-fe1b56b3fb28
+	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ª―ΥΉψÿÿÿÿJ$db288501-8c4a-4efa-b566-80d6fbc345bf
+	java:S1165"ORename this field "CCCD" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ϋ­βΏϊÿÿÿÿJ$f3b80f42-99b5-47a3-8f36-9f07de2331cd
+}	java:S107J"BConstructor has 11 parameters, which is greater than 7 authorized.(όϋ©J$50dd41dc-2dbb-4009-8e3b-5368e24e2efb
+	java:S107W"AConstructor has 8 parameters, which is greater than 7 authorized.(ΠΡ€ύÿÿÿÿJ$a945907e-6db7-435b-8422-6773a15a7358
+|	java:S107c"AConstructor has 9 parameters, which is greater than 7 authorized.(Μ§λJ$92bcf856-a35e-4fdd-a844-267153b1d456
